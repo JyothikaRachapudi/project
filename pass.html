@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Booking Form</title>
+    <link rel="stylesheet" href="Style.css">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="flights.html">flights</a></li>
+                <li><a href="Hotels.html">Hotels</a></li>
+                <li><a href="pass.html">My Bokings</li>
+    
+            </ul>
+        </nav>
+    </header>
+  <style>
+    body{
+        background:url("images (14).jpeg");
+        background-repeat: no-repeat;
+       background-size:cover;
+    }
+  </style>
+</head>
+<body>
+    <div class="booking-form">
+        <h2>Book Your Flight</h2>
+        <form action="Book.html" method="post">
+            <div class="form-group">
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from" required>
+            </div>
+            <div class="form-group">
+                <label for="to">To:</label>
+                <input type="text" id="to" name="to" required>
+            </div>
+            <div class="form-group">
+                <label for="airline">Preferred Airline:</label>
+                <input type="text" id="airline" name="airline">
+            </div>
+            <div class="form-group">
+                <label for="departure-date">Departure Date:</label>
+                <input type="date" id="departure-date" name="departure-date" required>
+            </div>
+            <div class="form-group">
+                <label for="return-date">Return Date:</label>
+                <input type="date" id="return-date" name="return-date">
+            </div>
+            <button type="submit">Search Flights</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy..RS airlines.All Rights are Reserved..</p>
+    </footer>
+</body>
+</html>
